@@ -7,7 +7,6 @@ This repository contains the implementation of an **Image Captioning Model** usi
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Training the Model](#training-the-model)
 - [Contributing](#contributing)
 
@@ -49,23 +48,6 @@ pip install -r requirements.txt
 ### 3. Download the Dataset
 Download the Flickr8k dataset from Kaggle and extract it into a folder named **Flickr8k**.
 
-
-## Usage
-### Preprocessing Data
-```bash
-python preprocess_data.py
-```
-
-### Train the Model
-```bash
-python train.py
-```
-
-### Inference
-To generate captions for a new image, use:
-```bash
-python predict.py --image_path 'path_to_image'
-```
 
 ## Training the Model
 
