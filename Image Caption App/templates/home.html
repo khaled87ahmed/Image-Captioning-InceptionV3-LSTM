@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Captioning Tool</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="icon" href="../static/images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="../static/videos/Background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+
+
+    <h1 class="mt-5 text-white">Image To Caption</h1>
+    <p class="text-center text-white">Upload an image and let our AI generate a caption for it.</p>
+
+
+    <div class="container mt-5">
+
+        <div class="upload-section" id="drop-area">
+            <label for="file-upload" class="custom-file-upload">
+                <img class="text-center" width="100" src="../static/images/icon.png" alt="">
+                Click to upload or drag and drop
+            </label>
+            <input id="file-upload" type="file" accept="image/*">
+        </div>
+
+        <!-- Added image preview section -->
+        <div id="image-preview" class="text-center" style="display: none;">
+            <img width="300" id="preview-img" src="" alt="Image Preview" style="border-radius: 8px;">
+        </div>
+
+        <button class="mt-5" id="generate-btn">Generate Caption</button>
+
+        <p class="fw-bolder bg-light" id="results"> </p>
+    </div>
+
+    <p class="text-light text-center mt-2">*Your privacy is protected! No data is stored. </p>
+
+
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/index.js"></script>
+</body>
+
+</html>
