@@ -8,7 +8,6 @@ This repository contains the implementation of an **Image Captioning Model** usi
 - [Model Architecture](#model-architecture)
 - [Installation](#installation)
 - [Training the Model](#training-the-model)
-- [Contributing](#contributing)
 
 ## Overview
 Image captioning is the task of generating a textual description of an image. This model combines deep learning techniques for both **Computer Vision** and **Natural Language Processing** to generate meaningful captions from images. It leverages **InceptionV3** for image feature extraction and **LSTM** for generating captions based on the image features.
@@ -62,6 +61,3 @@ The captions are tokenized using the `Tokenizer` class from Keras, and each capt
 - **Learning Rate**: Adaptive learning rate scheduling during training
 - **Loss Function**: Categorical Cross-Entropy
 - **Optimization**: Adam Optimizer with Gradient Clipping
-
-## Contributing
-Contributions are welcome! Please submit a pull request or create an issue to discuss the change you want to make.
