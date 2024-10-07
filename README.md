@@ -83,18 +83,5 @@ The captions are tokenized using the `Tokenizer` class from Keras, and each capt
 - **Loss Function**: Categorical Cross-Entropy
 - **Optimization**: Adam Optimizer with Gradient Clipping
 
-## Results
-The model was trained for 15 epochs with early stopping and learning rate scheduling. It was evaluated using BLEU score to assess the quality of the generated captions.
-
-### Sample Generated Captions:
-- **Image**: ![Image 1](path_to_image_1)  
-  **Caption**: "A dog jumping over a hurdle."
-  
-- **Image**: ![Image 2](path_to_image_2)  
-  **Caption**: "Two kids playing soccer on the field."
-
 ## Contributing
 Contributions are welcome! Please submit a pull request or create an issue to discuss the change you want to make.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
