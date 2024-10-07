@@ -41,3 +41,7 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/khaled87ahmed/image-captioning-inceptionv3-lstm.git
 cd image-captioning-inceptionv3-lstm
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
