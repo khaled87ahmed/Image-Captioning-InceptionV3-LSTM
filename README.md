@@ -41,7 +41,13 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/khaled87ahmed/image-captioning-inceptionv3-lstm.git
 cd image-captioning-inceptionv3-lstm
+```
 
 ### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 3. Download the Dataset
+Download the Flickr8k dataset from Kaggle and extract it into a folder named Flickr8k.
+
