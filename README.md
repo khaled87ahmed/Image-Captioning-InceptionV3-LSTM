@@ -49,5 +49,5 @@ pip install -r requirements.txt
 ```
 
 ### 3. Download the Dataset
-Download the Flickr8k dataset from Kaggle and extract it into a folder named Flickr8k.
+Download the Flickr8k dataset from Kaggle and extract it into a folder named **Flickr8k**.
 
