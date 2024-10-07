@@ -9,9 +9,7 @@ This repository contains the implementation of an **Image Captioning Model** usi
 - [Installation](#installation)
 - [Usage](#usage)
 - [Training the Model](#training-the-model)
-- [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 Image captioning is the task of generating a textual description of an image. This model combines deep learning techniques for both **Computer Vision** and **Natural Language Processing** to generate meaningful captions from images. It leverages **InceptionV3** for image feature extraction and **LSTM** for generating captions based on the image features.
